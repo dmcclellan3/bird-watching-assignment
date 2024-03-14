@@ -112,6 +112,8 @@ main {
     flex: 5;
     margin-left: 10px;
     padding: 1%;
+    border: 0.5rem solid #060606;
+    
   }
     aside a {
     display: block;
@@ -127,5 +129,9 @@ main {
     display: block;
     float: left;
     width: 50%;
+    text-align: center;
+    position: relative;
+    border: 0.5rem solid #060606;
+
   }
   
