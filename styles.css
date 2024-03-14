@@ -43,6 +43,9 @@ html, body {
     font-size: 2 rem;
     line-height: 1.5;
  }
+ p {
+    text-align: left;
+ }
  /* || Header Layout */
 
  header {
@@ -59,6 +62,7 @@ html, body {
  main, header, nav, footer, section {
     background-color: rgba(255,255,255,5);
     padding: 1%;
+    border-radius: 10px;
  }
  h1 {
     flex: 5;
@@ -70,7 +74,7 @@ html, body {
     padding-top: 15px;
   }
   nav {
-    height: 50px;
+    height: 70px;
     flex: 100%;
     display: flex;
   }
@@ -79,6 +83,9 @@ html, body {
     list-style-type: none;
     flex: 2;
     display: flex;
+    background-color: aquamarine;
+    border-radius: 10px;
+    height: 10;
   }
   nav li {
     display: inline;
@@ -87,9 +94,9 @@ html, body {
   }
   nav a, nav span {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.25rem;
     height: 2rem;
-    line-height: 1.7;
+    line-height: 2;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
@@ -106,8 +113,7 @@ main {
     margin-left: 10px;
     padding: 1%;
   }
-  
-  aside a {
+    aside a {
     display: block;
     float: left;
     width: 50%;
