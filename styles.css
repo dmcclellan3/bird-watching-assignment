@@ -1,5 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px
-}
+/* || General setup */
 
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: #473232;
+  }
+  
+  body {
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+  }
+  
+ /* || Typography */
+
+ h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black
+ }
