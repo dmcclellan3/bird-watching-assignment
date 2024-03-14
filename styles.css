@@ -6,8 +6,9 @@ html, body {
   }
   
   html {
-    font-size: 10px;
-    background-color: #473232;
+    font-size: 16px;
+    background-color: #979797;
+    border: 10px solid;
   }
   
   body {
@@ -20,5 +21,46 @@ html, body {
 
  h1, h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:black
+    color:black;
  }
+
+ p, li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+ }
+ 
+ h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px;
+ }
+ h2 {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px;
+ }
+ p, li{
+    font-size: 2 rem;
+    line-height: 1.5;
+ }
+ /* || Header Layout */
+
+ header {
+    margin-bottom: 10px;
+    display: flex; 
+    flex-flow: row wrap;    
+ }
+
+ body > * {
+    background-color: rgba(255, 255, 255, 0.945);
+    padding: 1%;
+ }
+
+ main, header, nav, footer, section {
+    background-color: rgba(255,255,255,5);
+    padding: 1%;
+ }
+ h1 {
+    flex: 5;
+    text-transform: uppercase;
+  }
