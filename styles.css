@@ -25,7 +25,7 @@ html, body {
  }
 
  p, li{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color:black;
  }
  
@@ -53,7 +53,8 @@ html, body {
     margin-bottom: 10px;
     display: flex; 
     flex-flow: row wrap;
-    line-height: 3;    
+    line-height: 3;  
+    text-align: center;  
  }
 
  body > * {
@@ -74,12 +75,13 @@ html, body {
     display: block;
     height: 175px;
     padding-top: 15px;
-    box-shadow: 1px;
   }
   nav {
     height: 70px;
     flex: 100%;
     display: flex;
+    text-align: inline;
+    text-shadow: 1px 1px;
   }
   nav ul {
     padding: 0;
@@ -135,5 +137,8 @@ main {
     position: relative;
     border: 0.5rem solid #060606;
 
+  }
+  footer {
+    border: 0.5rem solid #060606;
   }
   
