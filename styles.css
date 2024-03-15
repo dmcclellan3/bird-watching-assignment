@@ -73,8 +73,9 @@ html, body {
   }
   header img {
     display: block;
-    height: 175px;
-    padding-top: 15px;
+    height: 105px;
+    width: 105px;
+    padding-top: 10px;
   }
   nav {
     height: 70px;
